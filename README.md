@@ -1,4 +1,6 @@
-# database-apps
+# dash-ma-plot
+
+An interactive MA plot of RNA-seq data using python dash.
 
 ## installation
 
