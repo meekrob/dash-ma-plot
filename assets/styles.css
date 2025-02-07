@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(251, 244, 244);
+}
+.dash-spreadsheet {
+    &.dash-freeze-left,
+    &.dash-freeze-top {
+        .fit-content-polyfill();
+    }
+
+    &.dash-freeze-left {
+        max-width: 1500px; /* this was set to 500px and interfering with freeze_columns
+        but this setting doesn't override it */
+    }
+
+    &.dash-freeze-top,
+    &.dash-virtualized {
+        max-height: 500px;
+    }
+}

@@ -1,0 +1,13 @@
+name: dash-ma-plot
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - dash
+  - dash-bootstrap-components
+  - dash-html-components
+  - python=3.9
+  - pandas
+  - matplotlib
+  - dash-bio
