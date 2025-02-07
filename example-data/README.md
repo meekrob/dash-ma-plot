@@ -9,3 +9,14 @@ A file of comma-separated values with log2fold change in expression, base mean, 
 ## Size and composition
 
 It is 8700 lines (including header). A random subsample of the non-significantly differentially expressed genes is included from the original to reduce the file size.
+
+Significantly depleted, equivalent within a range of fold change (see publication), or differentially expressed, are labelled as depleted, equal, and enriched, respectively in the data table.
+
+```
+(dash-ma-plot) % gzip -dc subset.data-for-MA-plot-app.csv.gz | grep -c depleted
+121
+(dash-ma-plot) % gzip -dc subset.data-for-MA-plot-app.csv.gz | grep -c equal
+2145
+(dash-ma-plot) % gzip -dc subset.data-for-MA-plot-app.csv.gz | grep -c enriched
+2086
+```
