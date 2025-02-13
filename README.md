@@ -2,6 +2,9 @@
 
 An interactive MA plot of RNA-seq data using python dash.
 
+<img alt="Screenshot demo" src="../../../../meekrob/dash-ma-plot/blob/main/screenshots/MA-dash-10fps-50pc.gif" width=448 height=195>
+
+
 ## installation
 
 Use the conda environment specified by `dash-env.yaml` which creates the environment "dash-ma-plot."
